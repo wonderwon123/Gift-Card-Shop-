@@ -1,0 +1,103 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="GiftcardStore">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Store" type="storeType" /> 
+				<xs:element name="top" type="topType" />
+				<xs:element name="info" type="xs:string" />
+				<xs:element name="Cards" type="CardsType" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="storeType">
+		<xs:group ref="storeElements"/>
+		<xs:attributeGroup ref="storeAtt"/>
+	</xs:complexType>
+	<xs:group name="storeElements">
+		<xs:sequence>
+			<xs:element name="StoreAddress" type="xs:string"/>
+			<xs:element name="StoreContactNo" type="xs:string"/>
+			<xs:element name="StoreWebsite" type="xs:string"/>
+		</xs:sequence>
+	</xs:group>
+	<xs:attributeGroup name="storeAtt">
+		<xs:attribute name="storeID" type="xs:string" />
+	</xs:attributeGroup>
+	<xs:complexType name="topType">
+		<xs:group ref="topElements" />
+	</xs:complexType>
+	<xs:group name="topElements" >
+		<xs:sequence>
+			<xs:element name="logo" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="StoreName" type="xs:string"/>
+		</xs:sequence>
+	</xs:group>
+	<xs:complexType name="CardsType">
+		<xs:sequence>
+			<xs:element name="card" type="cardType" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="cardType">
+		<xs:group ref="cardElements" />
+		<xs:attributeGroup ref="cardAtt"/>
+	</xs:complexType>
+	<xs:group name="cardElements">
+		<xs:sequence>
+			<xs:element name="cardName" type="xs:string"/>
+			<xs:element name="physical" type="physicalType"/>
+			<xs:element name="Type" type="xs:string" />
+			<xs:element name="Issuer" type="xs:string" />
+			<xs:element name="Giftcardmaker" type="xs:string"/>
+			<xs:element name="users" type="xs:string"/>
+			<xs:element name="Coupouns" type="CoupounsType"/>
+			<xs:element name="Validity" type="ValidityType"/>
+			<xs:element name="Price" type="xs:string"/>
+			<xs:element name="Discount" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Cardinfo" type="xs:string"/>
+		</xs:sequence>
+	</xs:group>
+	<xs:attributeGroup name="cardAtt">
+		<xs:attribute name="cardID" type="xs:string"/>
+	</xs:attributeGroup>
+	<xs:complexType name="physicalType">
+		<xs:group ref="physicalElements"/>
+	</xs:complexType>
+	<xs:group name="physicalElements">
+		<xs:sequence>
+			<xs:element name="GiftcardName" type="GiftcardNameType" />
+			<xs:element name="Carditems" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+			<xs:element name="CardFormed" type="xs:string" minOccurs="0" maxOccurs="1" />
+		</xs:sequence>
+	</xs:group>
+	<xs:complexType name="CoupounsType" >
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="CoupounNo" type="xs:string" use="required"/>
+				<xs:attribute name="discount" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ValidityType">
+		<xs:group ref="ValidityElements"/>
+		<xs:attributeGroup ref="ValidityAtt"/>
+	</xs:complexType>
+	<xs:group name="ValidityElements">
+		<xs:sequence>
+			<xs:element name="Year" type="xs:string"/>
+			<xs:element name="Month" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Day" type="xs:integer" minOccurs="0" maxOccurs="1" />
+		</xs:sequence>
+	</xs:group>
+	<xs:attributeGroup name="ValidityAtt">
+		<xs:attribute name="ReleasedCentury" type="xs:string" />
+	</xs:attributeGroup>
+	<xs:complexType name="GiftcardNameType" >
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="giftcardID" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+</xs:schema>

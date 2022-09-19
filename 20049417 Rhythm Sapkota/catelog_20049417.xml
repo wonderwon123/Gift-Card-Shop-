@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="catelog_20049417.css"?>
+<!-- Rhythm Sapkota -->
+<!-- 04/20/2022 -->
+<!-- London Met ID: 20049417  -->
+<!--<!DOCTYPE GiftcardStore SYSTEM "catelog_20049417.dtd">-->
+
+<GiftcardStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	    xsi:noNamespaceSchemaLocation="catelog_20049417.xsd" >
+		<Store storeID="881122">
+		<StoreAddress>Address: London,United Kingdom</StoreAddress>
+		<StoreContactNo>Contact N0: +44 2234718002 </StoreContactNo>
+		<StoreWebsite>Website: www.Amazegiftingcoupouns.de</StoreWebsite>
+		
+		
+	</Store>
+	<top>
+		<logo></logo>
+		<StoreName>Store Name: Amaze gift cards</StoreName>
+	</top>
+	<info> Our available copouns and gift vouchers.</info>
+	
+<Cards>
+		<card cardID="001">
+			<cardName>Card name: Physical gift cards</cardName>
+			<physical>
+				<GiftcardName giftcardID="101">Gift Card Name: Mysty 222</GiftcardName>	
+				<Carditems> Item 1: XBOX GAMES </Carditems>
+				<Carditems> Item 2: Playstation Games</Carditems>
+				<Carditems> Item 3: Microsoft/Windows PC Games</Carditems>
+				<CardFormed>2020</CardFormed>
+			</physical>
+			<Type>Discount Card</Type>
+			<Issuer>Issued by: AllonlineGames.co </Issuer>
+			<Giftcardmaker>Maker: AllonlineGames.co</Giftcardmaker>
+			<users>no of users: 2 </users>
+			<Coupouns CoupounNo="722003" discount="50.60">Coupoun: Giftcard</Coupouns>
+			<Validity ReleasedCentury="21st"> 
+				<Year>Valid till Year: 2022</Year>
+				<Month>September</Month>
+				<Day>16</Day>
+			</Validity>
+			<Price>Price: 500$</Price>
+			<Discount>discount percent: 50% ON ALL ITEMS</Discount>
+			<Cardinfo> 
+				A gift card, also known as a gift certificate in the United States or a gift voucher or gift token in the United Kingdom, is a prepaid stored-value money card provided by a merchant or bank to be used as an alternative to cash for purchases inside a certain store or connected companies.
+			</Cardinfo>
+		</card>
+		<card cardID="002">
+			<cardName>Card name: Physical gift cards</cardName>
+			<physical>
+				<GiftcardName giftcardID="102">Gift Card Name: Rusty 300</GiftcardName>	
+				<Carditems> Item 1: FOOD VOUCHERS </Carditems>
+				<Carditems> Item 2: Zara Voucher</Carditems>
+				<Carditems> Item 3: Fitness Centers</Carditems>
+				<CardFormed>2020</CardFormed>
+			</physical>
+			<Type>Discount Card</Type>
+			<Issuer>Issued by: Modernfranchise.co </Issuer>
+			<Giftcardmaker>Maker: Modernfranchise.co</Giftcardmaker>
+			<users>no of users: 1 </users>
+			<Coupouns CoupounNo="889003" discount="70.60">Coupoun: Giftcard</Coupouns>
+			<Validity ReleasedCentury="21st"> 
+				<Year>Valid till Year: 2022</Year>
+				<Month>April</Month>
+				<Day>12</Day>
+			</Validity>
+			<Price>Price: 600$</Price>
+			<Discount>discount percent: 70% ON ALL ITEMS</Discount>
+			<Cardinfo> 
+				This card provides discount on all items of ZARA, all items of KFC, all items of MCdonalds, including all fitness centres in london, United Kingdom up to 70%. This card can be used multiple times by using the same coupoun codes for heavey discounts. 
+			</Cardinfo>
+		</card>
+		<card cardID="003">
+			<cardName>Card name: Digital gift cards</cardName>
+			<physical>
+				<GiftcardName giftcardID="403">Gift Card Name: Daily Golds</GiftcardName>	
+				<Carditems> Item 1: Valorant points </Carditems>
+				<Carditems> Item 2: Steam Store</Carditems>
+				<Carditems> Item 3: Origin/EA store</Carditems>
+				<CardFormed>2020</CardFormed>
+			</physical>
+			<Type>Discount Card</Type>
+			<Issuer>Issued by: Worldgames.org </Issuer>
+			<Giftcardmaker>Maker: ALLONLINEGAMES.co</Giftcardmaker>
+			<users>no of users: 1 </users>
+			<Coupouns CoupounNo="00029455113" discount="80.60"> Digitalcard: e-Giftcards</Coupouns>
+			<Validity ReleasedCentury="21st"> 
+				<Year>Valid till Year: 2021</Year>
+				<Month>May</Month>
+				<Day>06</Day>
+			</Validity>
+			<Price>Price: 300$</Price>
+			<Discount>discount percent: 80% ON ALL ITEMS</Discount>
+			<Cardinfo> 
+				This gift card is a discount offer for various gaming platforms. This card can be used in getting upto 79% discount in many items and games of ORIGIN/EA SPORTS and Steam. This card also gives discount on In-game Valorant Points.
+				This card is offically launched by Worldgames.com.uk 
+			</Cardinfo>
+		</card>
+		<card cardID="004">
+			<cardName>Card name: Digital gift cards</cardName>
+			<physical>
+				<GiftcardName giftcardID="404">Gift Card Name: Meta 222</GiftcardName>	
+				<Carditems> Item 1: Amazon  </Carditems>
+				<Carditems> Item 2: Ebay</Carditems>
+				<Carditems> Item 3: Alibabaexpress</Carditems>
+				<CardFormed>2019</CardFormed>
+			</physical>
+			<Type>Amount Card with discounts</Type>
+			<Issuer>Issued by: Amazon.com </Issuer>
+			<Giftcardmaker>Maker: Allstarsshops.co</Giftcardmaker>
+			<users>no of users: 4 </users>
+			<Coupouns CoupounNo="000223441123" discount="5.60">Digitalcard: e-Giftcards</Coupouns>
+			<Validity ReleasedCentury="21st"> 
+				<Year>Valid till Year: 2021</Year>
+				<Month>December</Month>
+				<Day>27</Day>
+			</Validity>
+			<Price>Price: 1000$</Price>
+			<Discount>Amount : 990 discount percent: 5% ON ALL ITEMS</Discount>
+			<Cardinfo> 
+				This is a rechargeable digital gift card. The maximum amount in this card is 990 and provides 5% discount on all items in various online stores in UK. 
+			</Cardinfo>
+		</card>
+		<card cardID="005">
+			<cardName>Card name: Digital gift cards</cardName>
+			<physical>
+				<GiftcardName giftcardID="404">Gift Card Name: Foodforlife</GiftcardName>	
+				<Carditems> Item 1: KOL  </Carditems>
+				<Carditems> Item 2: Paradise</Carditems>
+				<Carditems> Item 3: Luca</Carditems>
+				<CardFormed>2020</CardFormed>
+			</physical>
+			<Type>Amount Card with discounts</Type>
+			<Issuer>Issued by: Foodslondon.com </Issuer>
+			<Giftcardmaker>Maker: Paradise.co</Giftcardmaker>
+			<users>no of users: 2 </users>
+			<Coupouns CoupounNo="266485290993" discount="10.60">Digitalcard: e-Giftcards</Coupouns>
+			<Validity ReleasedCentury="21st"> 
+				<Year>Valid till Year: 2021</Year>
+				<Month>April</Month>
+				<Day>09</Day>
+			</Validity>
+			<Price>Price: 300$</Price>
+			<Discount>Amount : 300 discount percent: 10% ON ALL ITEMS</Discount>
+			<Cardinfo> 
+				This is a rechargeable digital gift card. The maximum amount in this card is 300 and provides 10% discount on all items in Londons top 3 restaurants i.e Luca, Paradise, KOL		</Cardinfo>
+		</card>
+		<card cardID="006">
+			<cardName>Card name: Physical gift cards</cardName>
+			<physical>
+				<GiftcardName giftcardID="104">Gift Card Name: Sportyy 2022</GiftcardName>	
+				<Carditems> Item 1: NIKE </Carditems>
+				<Carditems> Item 2: ADIDAS</Carditems>
+				<Carditems> Item 3: PUMA</Carditems>
+				<CardFormed>2020</CardFormed>
+			</physical>
+			<Type>Discount Card</Type>
+			<Issuer>Issued by: sports24.co </Issuer>
+			<Giftcardmaker>Maker: sports24.co</Giftcardmaker>
+			<users>no of users: 1 </users>
+			<Coupouns CoupounNo="0012773" discount="65.60">Coupoun: Giftcard</Coupouns>
+			<Validity ReleasedCentury="21st"> 
+				<Year>Valid till Year: 2022</Year>
+				<Month>November</Month>
+				<Day>30</Day>
+			</Validity>
+			<Price>Price: 300$</Price>
+			<Discount>discount percent: upto 66% ON ALL ITEMS</Discount>
+			<Cardinfo> 
+				This card offers 66% discounts on all items of different sports stores like Nike Addidas and Puma. And also provides a lifetime 3% discount on some items.
+			</Cardinfo>
+		</card>
+		<card cardID="007">
+			<cardName>Card name: Physical gift cards</cardName>
+			<physical>
+				<GiftcardName giftcardID="105">Gift Card Name: Shoppingfopping </GiftcardName>	
+				<Carditems> Item 1: Westfield London </Carditems>
+				<Carditems> Item 2: Carnaby London</Carditems>
+				<Carditems> Item 3: Harrods </Carditems>
+				<CardFormed>2021</CardFormed>
+			</physical>
+			<Type>Discount Card</Type>
+			<Issuer>Issued by: Westfield.co </Issuer>
+			<Giftcardmaker>Maker: Harrods.co</Giftcardmaker>
+			<users>no of users: 4 </users>
+			<Coupouns CoupounNo="1188394" discount="70.60">Coupoun: Giftcard</Coupouns>
+			<Validity ReleasedCentury="21st"> 
+				<Year>Valid till Year: 2022</Year>
+				<Month>September</Month>
+				<Day>16</Day>
+			</Validity>
+			<Price>Price: 700$</Price>
+			<Discount>discount percent: 70% ON ALL ITEMS</Discount>
+			<Cardinfo> 
+				This card offers discount of 70% in shopping complex like Wesrfield, carnaby and harrods for all of their items. You also get a free membership from this card.
+			</Cardinfo>
+		</card>
+		<card cardID="008">
+			<cardName>Card name: Physical gift cards</cardName>
+			<physical>
+				<GiftcardName giftcardID="106">Gift Card Name: OIL 2022</GiftcardName>	
+				<Carditems> Item 1: Shell </Carditems>
+				<Carditems> Item 2: Texaco </Carditems>
+				<Carditems> Item 3: Uptown Oil</Carditems>
+				<CardFormed>2020</CardFormed>
+			</physical>
+			<Type>Discount Card</Type>
+			<Issuer>Issued by: Londonoilcorporations.uk </Issuer>
+			<Giftcardmaker>Maker: Londonoilcorporations.uk</Giftcardmaker>
+			<users>no of users: 1 </users>
+			<Coupouns CoupounNo="66458123" discount="20.60">Coupoun: Giftcard</Coupouns>
+			<Validity ReleasedCentury="21st"> 
+				<Year>Valid till Year: 2022</Year>
+				<Month>October</Month>
+				<Day>13</Day>
+			</Validity>
+			<Price>Price: 40$</Price>
+			<Discount>discount percent: 20% ON All Petrolium products.</Discount>
+			<Cardinfo> 
+				This card offers 20%discount on all types of petrollium products of diffrent service providers such as Shell, Texaco, Uptown Oil.
+			</Cardinfo>
+		</card>
+		<card cardID="009">
+			<cardName>Card name: Digital gift cards</cardName>
+			<physical>
+				<GiftcardName giftcardID="405">Gift Card Name: Libertyhouse</GiftcardName>	
+				<Carditems> Item 1: Liberty London  </Carditems>
+				<Carditems> Item 2: Selfridges</Carditems>
+				<Carditems> Item 3: John Lewis</Carditems>
+				<CardFormed>2020</CardFormed>
+			</physical>
+			<Type>Amount Card with discounts</Type>
+			<Issuer>Issued by: Liberty London </Issuer>
+			<Giftcardmaker>Maker: Selfridges.co</Giftcardmaker>
+			<users>no of users: 1 </users>
+			<Coupouns CoupounNo="" discount=""> ValidationNo="66235819293" discount="15.60">Digitalcard: e-Giftcards</Coupouns>
+			<Validity ReleasedCentury="21st"> 
+				<Year>Valid till Year: 2021</Year>
+				<Month>June</Month>
+				<Day>22</Day>
+			</Validity>
+			<Price>Price: 1000$</Price>
+			<Discount>Amount : 1000 Discount percent: 15% ON ALL ITEMS</Discount>
+			<Cardinfo> 
+				This is a rechargeable digital gift card. The maximum amount in this card is 1000 and provides 15% discount on all items in Londons top 3 retailers i.e Liberty London, Selfridges and Johnlewis.		</Cardinfo>
+		</card>
+	
+
+
+	</Cards>
+	
+	
+</GiftcardStore>

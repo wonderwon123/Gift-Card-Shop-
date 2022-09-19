@@ -1,0 +1,44 @@
+<!ELEMENT GiftcardStore (Store,top,info,Cards)>
+
+<!ELEMENT Store (StoreAddress,StoreContactNo,StoreWebsite)>
+<!ATTLIST Store storeID CDATA #REQUIRED>
+
+<!ELEMENT StoreAddress (#PCDATA)>
+<!ELEMENT StoreContactNo (#PCDATA)>
+<!ELEMENT StoreWebsite (#PCDATA)>
+
+<!ELEMENT top (logo?,StoreName)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT StoreName (#PCDATA)>
+
+<!ELEMENT info (#PCDATA)>
+
+<!ELEMENT Cards (card+)>
+<!ELEMENT card (cardName,physical,Type,Issuer,Giftcardmaker,users,Coupouns,Validity,Price,Discount,Cardinfo)>
+<!ATTLIST card cardID CDATA #REQUIRED>
+
+<!ELEMENT cardName (#PCDATA)>
+
+<!ELEMENT physical (GiftcardName,Carditems+,CardFormed?)>
+<!ELEMENT GiftcardName (#PCDATA)>
+<!ATTLIST GiftcardName giftcardID CDATA #REQUIRED>
+<!ELEMENT Carditems (#PCDATA)>
+<!ELEMENT CardFormed (#PCDATA)>
+
+<!ELEMENT Type (#PCDATA)>
+<!ELEMENT Issuer (#PCDATA)>
+<!ELEMENT Giftcardmaker (#PCDATA)>
+<!ELEMENT users (#PCDATA)>
+<!ELEMENT Coupouns (#PCDATA)>
+<!ATTLIST Coupouns CoupounNo CDATA #REQUIRED
+				discount CDATA #REQUIRED>
+				
+<!ELEMENT Validity (Year,Month?,Day?)>
+<!ATTLIST Validity ReleasedCentury CDATA #REQUIRED>
+
+<!ELEMENT Year (#PCDATA)>
+<!ELEMENT Month (#PCDATA) >
+<!ELEMENT Day (#PCDATA) >
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Discount (#PCDATA) >
+<!ELEMENT Cardinfo (#PCDATA)>

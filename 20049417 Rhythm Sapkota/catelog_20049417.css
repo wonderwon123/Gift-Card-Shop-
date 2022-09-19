@@ -1,0 +1,324 @@
+*{
+	background-color: black;
+	animation-name: example;
+	animation-duration: 15s;
+}
+
+@keyframes example {
+  0%   {background-color: black;}
+  25%  {background-color: GhostWhite;}
+  50%  {background-color: black;}
+  100% {background-color: GhostWhite;}
+}
+StoreAddress {
+	display: block; 
+	width: 500px;
+	font-family: "Comic Sans MS", cursive, Sans-serif; 
+	color: rgb(60, 179, 113);
+	font-size: 12pt;
+	right: 10px;
+	margin-left: 10%;
+	border:2px;
+	
+}
+StoreContactNo {
+	display: block; 
+	width: 500px; 
+	font-family: "Comic Sans MS", cursive, Sans-serif; 
+	color: rgb(60, 179, 113);
+    font-size: 12pt; 
+	border:2px ;
+    margin-left: 10%;
+	
+}
+StoreWebsite {
+	display: block;
+	width: 500px;
+	font-family: "Comic Sans MS", cursive, Sans-serif;
+	color: rgb(60, 179, 113);
+    font-size: 12pt; 
+	border:2px ;
+    margin-left: 10%;	
+}	
+StoreName {
+	display: block;
+	width: 500px;
+	font-family: "Comic Sans MS", cursive, Sans-serif;
+	color: DarkSlateGrey;
+    font-size: 18pt; 
+	border:2px ;
+    margin-left: 31%;	
+	
+}	
+info{
+	display: block;
+	width: 500px;
+	font-family: "Comic Sans MS", cursive, Sans-serif;
+	color: DarkSlateGrey;
+    font-size: 18pt; 
+	border:2px ;
+    margin-left: 30%;
+		
+	
+}	
+ logo {
+	background-image: url("logo.png") ;
+	display:block;
+	/* color: transparent; */
+	background-size: contain;
+	border: 5px solid grey;
+	border-radius: 4px;
+	height: 100px;
+	padding: 5px;
+	width: 100px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 1%;
+	/* margin-left: 10%; */
+	left: 10px;
+	float: left;
+	
+}
+
+card {
+	display: list-item;
+	list-style-type: upper-roman;
+    margin-left: 1.3em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #202020;
+    text-align: left;
+}
+
+cardName {
+	display: block;
+	margin-left: 70%;
+	font-size: 22px;
+	font-family: Bradley Hand, cursive, serif;
+	font-weight: bold;
+	color: SeaGreen;
+}
+
+physical,Type,Issuer,Giftcardmaker,users,Coupouns,Validity,Price,Discount{
+	display: list-item; 
+	color: SeaGreen;
+	font-family: Bradley Hand, cursive, serif;
+	font-size: 18px;
+	margin: 1em;
+	margin-left: 70%;
+	font-weight: bold;
+	
+}
+
+GiftcardName,Carditems,CardFormed {
+	display: list-item;
+	list-style-type: circle;
+	margin: 1em;
+}
+
+Cardinfo {
+	margin: 1em;
+	display: block ; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	color: SeaGreen;
+	margin-left: 30%;
+	font-size: 16px;
+	font-weight:bold;
+	/* border: 2px solid SeaGreen; */
+	/* background-image: url("ghostlogo.jpg"); */
+
+}
+
+card[cardID="001"] {
+	background-image: url("card1.jpg");
+	display: block;
+	background-size: 60% 80%;
+	background-repeat: no-repeat;
+	-webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+
+card[cardID="001"]:hover {
+	/* background-position: -150px, 0; */
+	display: block;
+	background-image: url("card1.jpg");
+	background-size: 60% 80%;
+
+}
+
+card[cardID="001"] p {
+    text-indent: -9999px;
+}
+
+card[cardID="002"] {
+	background-image: url("card2.jpg");
+	display: block;
+	background-size: 60% 80%;
+	background-repeat: no-repeat;
+	-webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+
+card[cardID="002"]:hover {
+	/* background-position: -150px, 0; */
+	display: block;
+	background-image: url("card2.jpg");
+	background-size: 60% 80%;
+
+}
+
+card[cardID="002"] p {
+    text-indent: -9999px;
+}
+
+card[cardID="003"] {
+	background-image: url("card3.jpg");
+	display: block;
+	background-size: 60% 80%;
+	background-repeat: no-repeat;
+	-webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+
+card[cardID="003"]:hover {
+	/* background-position: -150px, 0; */
+	display: block;
+	background-image: url("card3.jpg");
+	background-size: 60% 80%;
+
+}
+
+card[cardID="003"] p {
+    text-indent: -9999px;
+}
+
+card[cardID="004"] {
+	background-image: url("card4.jpg");
+	display: block;
+	background-size: 60% 80%;
+	background-repeat: no-repeat;
+	-webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+
+card[cardID="004"]:hover {
+	/* background-position: -150px, 0; */
+	display: block;
+	background-image: url("card4.jpg");
+	background-size: 60% 80%;
+
+}
+
+card[cardID="004"] p {
+    text-indent: -9999px;
+}
+card[cardID="005"] {
+	background-image: url("card5.jpg");
+	display: block;
+	background-size: 60% 80%;
+	background-repeat: no-repeat;
+	-webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+
+card[cardID="005"]:hover {
+	/* background-position: -150px, 0; */
+	display: block;
+	background-image: url("card5.jpg");
+	background-size: 60% 80%;
+
+}
+
+card[cardID="005"] p {
+    text-indent: -9999px;
+}
+
+card[cardID="006"] {
+	background-image: url("card6.jpg");
+	display: block;
+	background-size: 60% 80%;
+	background-repeat: no-repeat;
+	-webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+
+card[cardID="006"]:hover {
+	display: block;
+	background-image: url("card6.jpg");
+	background-size: 60% 80%;
+
+}
+
+card[cardID="006"] p {
+    text-indent: -9999px;
+}
+
+card[cardID="007"] {
+	background-image: url("card7.jpg");
+	display: block;
+	background-size: 60% 80%;
+	background-repeat: no-repeat;
+	-webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+
+card[cardID="007"]:hover {
+	display: block;
+	background-image: url("card7.jpg");
+	background-size: 60% 80%;
+
+}
+
+card[cardID="007"] p {
+    text-indent: -9999px;
+}
+
+card[cardID="008"] {
+	background-image: url("card8.jpg");
+	display: block;
+	background-size: 60% 80%;
+	background-repeat: no-repeat;
+	-webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+
+card[cardID="008"]:hover {
+	display: block;
+	background-image: url("card8.jpg");
+	background-size: 60% 80%;
+
+}
+
+card[cardID="008"] p {
+    text-indent: -9999px;
+}
+
+card[cardID="009"] {
+	background-image: url("card9.jpg");
+	display: block;
+	background-size: 60% 80%;
+	background-repeat: no-repeat;
+	-webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+
+card[cardID="009"]:hover {
+	display: block;
+	background-image: url("card9.jpg");
+	background-size: 60% 80%;
+
+}
+
+card[cardID="009"] p {
+    text-indent: -9999px;
+}
